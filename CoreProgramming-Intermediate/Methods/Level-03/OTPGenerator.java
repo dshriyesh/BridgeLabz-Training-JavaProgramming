@@ -8,7 +8,6 @@
 // c. Write a method to ensure that the OTP numbers generated are unique. If unique return
 // true else return false
 
-import java.sql.Array;
 import java.util.Arrays;
 import java.util.Scanner;
 

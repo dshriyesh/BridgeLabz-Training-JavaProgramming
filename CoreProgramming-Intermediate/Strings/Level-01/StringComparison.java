@@ -12,6 +12,7 @@ public class StringComparison {
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
 
+        
         System.out.print("Enter String 1: ");
         String str1 = sc.next();
 

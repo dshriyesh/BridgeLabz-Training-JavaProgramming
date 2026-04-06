@@ -27,7 +27,6 @@ public class UpperCaseConversion {
         System.out.println("Custom Uppercase: " + customUpper);
         System.out.println("Built-in Uppercase: " + builtInUpper);
         System.out.println("Are both equal? " + result);
-
         sc.close();
     }
 

@@ -22,7 +22,7 @@ public class SumOfNumbers {
         double[] arr = new double[10]; // max 10 elements
         double total = 0.0;
         int index = 0;
-        
+
         while (true) {
 
             System.out.print("Enter a number: ");
@@ -49,7 +49,5 @@ public class SumOfNumbers {
         }
 
         System.out.println("\n\nTotal Sum = " + total);
-
-        sc.close();
     }
 }

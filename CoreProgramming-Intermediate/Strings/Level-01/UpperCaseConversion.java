@@ -39,7 +39,6 @@ public class UpperCaseConversion {
             if (ch >= 'a' && ch <= 'z') {
                 ch = (char)(ch - 32); 
             }
-
             result += ch;
         }
 

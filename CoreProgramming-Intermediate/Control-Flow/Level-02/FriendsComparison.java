@@ -17,13 +17,13 @@ public class FriendsComparison {
         System.out.print("Height (cm): ");
         double heightAmar = sc.nextDouble();
 
-        System.out.println("\nEnter details for Akbar:");
+        System.out.println("Enter details for Akbar:");
         System.out.print("Age: ");
         int ageAkbar = sc.nextInt();
         System.out.print("Height (cm): ");
         double heightAkbar = sc.nextDouble();
 
-        System.out.println("\nEnter details for Anthony:");
+        System.out.println("Enter details for Anthony:");
         System.out.print("Age: ");
         int ageAnthony = sc.nextInt();
         System.out.print("Height (cm): ");

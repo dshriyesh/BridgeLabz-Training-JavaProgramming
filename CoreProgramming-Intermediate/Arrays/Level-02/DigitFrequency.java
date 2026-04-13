@@ -8,7 +8,6 @@
 // 10, Loop through the digits array, and increase the frequency of each digit
 // e. Display the frequency of each digit in the number
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class DigitFrequency {

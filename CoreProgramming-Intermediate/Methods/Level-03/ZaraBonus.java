@@ -8,9 +8,6 @@
 // the Math.random() method to determine the 5-digit salary for each employee and also
 // use the random method to determine the years of service. Define 2D Array to save the
 // salary and years of service.
-
-// 6
-
 // c. Write a Method to calculate the new salary and bonus based on the logic defined above
 // and return the new 2D Array of the latest salary and bonus amount
 // d. Write a Method to Calculate the sum of the Old Salary, the Sum of the New Salary, and

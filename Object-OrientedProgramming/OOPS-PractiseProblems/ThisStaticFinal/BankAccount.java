@@ -34,7 +34,6 @@ class BankAccount {
         BankAccount acc1 = new BankAccount("Shriyesh", 101, 5000);
         BankAccount acc2 = new BankAccount("Rahul", 102, 10000);
 
-        // 4. instanceof check
         if (acc1 instanceof BankAccount) {
             acc1.displayDetails();
         }

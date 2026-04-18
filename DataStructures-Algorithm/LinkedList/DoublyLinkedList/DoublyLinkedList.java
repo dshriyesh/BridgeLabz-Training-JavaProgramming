@@ -1,4 +1,3 @@
-package DoublyLinkedList;
 class Node {
     int data;
     Node prev;

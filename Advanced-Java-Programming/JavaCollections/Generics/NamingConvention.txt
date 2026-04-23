@@ -1,0 +1,5 @@
+T : Type
+E : Element (Used in collections)
+K : Key (Used in maps)
+V : Value (used in maps)
+N : Number

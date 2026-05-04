@@ -1,5 +1,5 @@
 // used to resolve problems faced in unbounded type
-// it extends the sub-type of a class to implement the functions
+// it extends the sub-type of a class to implement the
 
 
 import java.util.ArrayList;

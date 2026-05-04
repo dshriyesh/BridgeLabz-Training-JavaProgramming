@@ -1,8 +1,11 @@
 
 public class Main{
     public static void main(String[] args) {
-        Box box = Box.getBox();
-        System.out.println(box);
+        Box box1 = Box.getBox();
+        System.out.println(box1.hashCode());
+
+        Box box2 = Box.getBox();
+        System.out.println(box2.hashCode()); // both the hash code are same , hence only one object is created
     }
 }
 

@@ -17,21 +17,42 @@ class Box{
         System.out.println("Box object initialised");
     } // private to restrict object creation
 
-    public static Box getBox(){
+
+    // lazy way of creating singleton object
+    public synchronized  static Box getBox(){
         // object of box class
         // Box box = new Box(); // but whenever we call this new object will be created
 
         // condition to restrict new obj creation
         if(value==null){
+            synchronized (Box.class) {
+                if(value==null){
+                    value=new Box();
+                }
+            }
             value = new Box();
         }
 
         System.out.println("inside getter function");
 
         return value;
+        // when thread safety is concerned we have to use syncronized code
     }
+
+    //  public  static Box getBox(){
+       
+        
+    //     if(value==null){
+    //         value = new Box();
+    //     }
+
+    //     System.out.println("inside getter function");
+
+    //     return value;
+    // }
 }
 
+// we can break singleton design pattern using reflection api
 
 
 // 1. constructor  -> private

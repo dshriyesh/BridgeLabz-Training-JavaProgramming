@@ -1,0 +1,51 @@
+body{
+    color:white;
+    background:#212121;
+    margin:0;
+    font-family:Arial, sans-serif;
+}
+
+/* Main content */
+.container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+/* Menu bar */
+.menu_container{
+    width:100%;
+    background:#111;
+    padding:10px 0;
+}
+
+/* Menu list */
+.menu_container ul{
+    list-style-type:none;
+    display:flex;
+    justify-content:center;
+    margin:0;
+    padding:0;
+}
+
+/* Menu items */
+.menu_container ul li{
+    margin:0 10px;
+}
+
+/* Links */
+.menu_container ul li a{
+    display:block;
+    padding:8px 15px;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+    transition:0.3s;
+}
+
+/* Hover effect */
+.menu_container ul li a:hover{
+    background:#333;
+}
